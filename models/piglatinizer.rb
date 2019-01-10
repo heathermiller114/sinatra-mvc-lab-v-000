@@ -6,7 +6,7 @@ class PigLatinizer
         @phrase = phrase.downcase
     end
 
-    def translate(phrase)
+    def translate
       vowels = ["a", "e", "i", "o", "u"]
       two_letter_consonants = ["ch", "sh", "qu", "th", "br"]
       three_letter_consonants = ["thr", "sch", "squ"]
